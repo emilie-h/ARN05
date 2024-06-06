@@ -1,0 +1,28 @@
+Chosen model part1
+
+- input: 224x224x3 image
+- hidden layer 1: 512 neurons, relu activation, dropout 0.4
+- hidden layer 2: 256 neurons, relu activation, dropout 0.4
+- output: 3
+
+
+Select a model with good performance by exploring a few hyperparameters (e.g., learning rate,
+epochs, …) and model architectures (nb of neurons in the dense layer(s), use of dropout , …)
+Document your results for a future report.
+
+=>
+We will use the following hyperparameters:
+- learning rate: ?
+- epochs: 25
+- batch size: 32
+- optimizer: rmsprop
+- loss: sparse_categorical_crossentropy
+
+Results:
+- accuracy: ?
+- loss: ?
+
+We obtain good results with this model.
+The confusion matrix shows that the model is able to predict the classes well, as there are no false positives or false negatives.
+
+
